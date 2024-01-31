@@ -1,9 +1,10 @@
-import { createApp } from 'vue'
+const { createApp } = Vue
 
 createApp({
   data() {
     return {
-        myArraio: [{
+        
+        products: [{
             prop1: 'Pane',
             booleano2: true 
           },
