@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #eee;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header {
+  line-height: 100px;
+  background: pink;
+}
+
+.logo {
+  height: 50px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.titolo {
+  display: inline;
+  vertical-align: middle;
+}
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 13px;
+  padding: 10px;
+}
+
+.btn-blue {
+  background-color: rgb(51, 187, 255);
+  color: #fff;
+}
+
+.btn-orange {
+  background-color: #f66c6cc3;
+}
+
+.btn-grey {
+  background-color: #ffffff;
+  border: 1px solid #adacac;
+  color: #adacac;
+}
+
+.btn-wrapper {
+  padding: 10px 40px;
+  border-bottom: 2px solid #eee;
+}
+
+main {
+  width: 70%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 50px 200px 10px 200px;
+}
+
+.tasks-wrapper {
+  padding: 30px 40px;
+}
+
+.task .task-list li {
+  padding: 3px 0px;
+}
+
+.task .task-list {
+  padding: 3px 0px;
+  display: inline-block;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 10px 30px;
+}
+
+.list-item {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  padding: 4px 7px;
+  font-size: 10px;
+}
+
+.list-item-ok {
+  border: 1px solid #11bc39;
+  color: #11bc39;
+}
+
+.list-item-ko {
+  border: 1px solid #d7350c;
+  color: #d7350c;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+}
