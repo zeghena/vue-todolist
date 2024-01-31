@@ -64,8 +64,10 @@
             <div id="app">
                 <h3>⯆ La Spesa</h3>
                 <ul class="task-list">
-                    <li v-for="product in products">
+                    <li v-for="(product, k) in products" :class="{ active: product.booleano2}">
+
                         {{ product.prop1 }}
+                        <button @click="deleteP(k)">X</button>
                     </li>
                     <!-- <div class="task-container">
                         <li v-for ><span class="list-item list-item-ok">&#10003;</span> Paperino</li>
